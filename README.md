@@ -1,2 +1,2 @@
 # JavaLesson
-my first lessons Java
+Learning Java and GitHub  :p
