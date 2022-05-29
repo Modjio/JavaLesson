@@ -6,7 +6,7 @@ public class Radius {
     //  вычислить и отобразить длину окружности. 
  
     double radius; // радиус окружности
-    double dlinna; // длина окружности
+    double dlina; // длина окружности
     final double PI = 3.14159; // константа ПИ
     
     Scanner input = new Scanner(System.in); // создание объекта типа Scanner
@@ -16,10 +16,10 @@ public class Radius {
     radius = input.nextDouble();
 
     // Вычислить длину окружности через радиус по формуле P=2πR
-    dlinna = 2 * PI * radius;
+    dlina = 2 * PI * radius;
 
     // Отобразить длину окружности
     System.out.println("Длинна окружности для радиуса " +
-      radius + " равна " + dlinna + ".");
+      radius + " равна " + dlina + ".");
   } 
 }
