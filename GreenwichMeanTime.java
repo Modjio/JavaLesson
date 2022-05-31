@@ -12,6 +12,7 @@ public class GreenwichMeanTime {
         long currentHour; // текущее количество часов по Гринвичу
         long currentMinute; // текущее количество минут
         long currentSecond; // текущее количество секунд
+        long currentHourEkb; // текущее количество часов по Екатеринбургу
 
         // Переменные программы:
         long totalSeconds; // общее количество секунд, прошедших с 00:00:00 GMT 01/01/1970
@@ -28,8 +29,11 @@ public class GreenwichMeanTime {
         totalHours = totalMinutes / MINUTES_PER_HOUR;
         currentHour = totalHours % HOURS_PER_DAY;
 
+        currentHourEkb = (totalHours + 5) % HOURS_PER_DAY;
+
         // Вывод результата
         System.out.println("Текущее время по Гринвичу " + currentHour + ":" + currentMinute + ":" + currentSecond + " GMT");
         System.out.println("Что равно " + totalMilliseconds + " миллисекунд");
+        System.out.println("Время в Екатеринбурге " + currentHourEkb + ":" + currentMinute + ":" + currentSecond);
     }
 }
