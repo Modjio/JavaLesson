@@ -6,6 +6,7 @@
 *.class
 .idea/
 JavaLesson.iml
+out/
 
 # Log file
 *.log
