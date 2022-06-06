@@ -5,6 +5,7 @@ public class TestSomeThing {
         int number;
 
         Scanner input = new Scanner(System.in);
+        System.out.print("Введите число: ");
         number = input.nextInt();
 
         boolean even = number % 2 == 0;
