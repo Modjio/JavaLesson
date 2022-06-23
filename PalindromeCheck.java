@@ -18,7 +18,7 @@ public class PalindromeCheck {
         Scanner input = new Scanner(System.in);
 
         // получить строку от пользователя
-        System.out.println("Введите строку для проверки на полиндром: ");
+        System.out.println("Введите строку для проверки на палиндром: ");
         s = input.nextLine();
 
         // исключить регистр
@@ -45,7 +45,7 @@ public class PalindromeCheck {
 
         System.out.println(); // отступ ради отступа
 
-        // строка является полиндромом? да нет
+        // строка является палиндромом? да нет
         System.out.println(isPalindrome ? "\nЭто палиндром" : "\nЭто не палиндром");
     }
 }
