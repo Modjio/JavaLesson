@@ -46,6 +46,6 @@ public class PalindromeCheck {
         System.out.println(); // отступ ради отступа
 
         // строка является полиндромом? да нет
-        System.out.println(isPalindrome ? "\nЭто полиндром" : "\nЭто не полиндром");
+        System.out.println(isPalindrome ? "\nЭто палиндром" : "\nЭто не палиндром");
     }
 }
